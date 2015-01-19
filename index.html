@@ -1,98 +1,262 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>		
-		<link type= "text/css" rel="stylesheet" href='css/styles.css' />
-		<script type='text/javascript' src='js/script.js'></script>
-		
+		<meta charset="utf-8">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	 	<link rel="shortcut icon" type="image/png" href="img/photo.jpg.png"/>
+
+	 	<!-- Jquery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
 		
 		<title>Portfolio Sergio Merida</title>
-		<!-- Favicon -->
-    		<link rel="shortcut icon" href="favicon.ico">
-		<style>#contenedor { width: 1500px; margin: 0 auto; position: inherit;}
-		</style> 
 	</head>
-		
 	<body>
-		<a id="arriba"></a>
-		<div id="contenedor">
-		<div id="container">					
-		<div class="home">		
-			<a href="http://www.cognits.co/apply" target="_blank">				
-				<img src="images/cognits-logo.png" alt="Cognits"> 
-			</a>		
-		</div>
-		<div class="home">		
-			<p>Sergio Merida</p>
-			<p>FRONT-END PADAWAN</p>
-		</div>
+		<nav class="navbar navbar-inverse navbar-static-top">
+		 <div class="container">
+		  <div class="row">
+		   <div class="col-md-6 col-xs-6">
+		    <p class="navbar-text navbar-left"><a href="#" class="navbar-link">Sergio Merida Tabarini</a> - Front-end padawan</p>
+		   </div><!--Close of first col-->
+		   <div class="col-md-6 col-xs-6">
+		    <img src="images/cognits-logo.png" class="navbar-brand pull-right" width="150px">
+		   </div><!--Close of second col-->
+		  </div>
+		 </div>
+		</nav>
 
-		<div class="linea"></div>
+		 <div class="container-fluid">
+		  <div class="col-md-12">
+		   <div class="jumbotron">
+		    <div class="row">
+		     <div class="col-md-6">	
+		      <table class="table table-hover">
+			<tbody>
+			   <tr>
+			    <td>HTML</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			   <tr>
+			    <td>CSS</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			   <tr>
+			    <td>JavaScript</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			   </tbody>
+			 </table>
+			 </div>
+			 <div class="col-md-6">
+			 <table class="table table-hover">
+			  <tbody>
+			   <tr>
+			    <td>JQuery</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			   <tr>
+			    <td>Bootstrap</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			   <tr>
+			    <td>Knockout</td>
+			    <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+			   </tr>
+			</tbody>
+		       </table>
+		      </div><!--Close of col-6-->  
+		     </div><!--Close of row-->
+		    </div><!--Close of jumbotron-->
+		  </div><!--Close of col-12-->
+		 </div><!--Close of container-->
+	
+		<div class="container">
+		 <div class="row">
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end youtube</h3>
+		 	 <p>Take a look at my project, it is a page that uses the api of youtube displays information from a channel.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-youtube" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of first caption-->
+		     </div><!--Close of first thumbnail-->
+		   </div><!--Close of first col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Knockoutjs address-book</h3>
+		 	 <p>Take a look at my project, it is a page that uses knockout to make an adress book.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-knockoutjs-address-book" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of second caption-->
+		     </div><!--Close of second thumbnail-->
+		   </div><!--Close of second col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end Knockoutjs</h3>
+		 	 <p>Take a look at my project, it is a page that uses knockoutjs where several examples are made.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-knockoutjs" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of third caption-->
+		     </div><!--Close of third thumbnail-->
+		   </div><!--Close of third col-md-4-->	
+		 </div><!--Close of row-->
+		</div><!--Close of first container-->
 
-		<div class="featured">		
-			<p>Featured Work</p>
-		</div>
+		<div class="container">
+		 <div class="row">
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Bootstrap javascript</h3>
+		 	 <p>Take a look at my project, it is a page that uses bootstrap and the freebase api.</p>
+			 <p><a href="https://github.com/SergioMerida/bootstrap-javascript" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of first caption-->
+		     </div><!--Close of first thumbnail-->
+		   </div><!--Close of first col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end music</h3>
+		 	 <p>Take a look at my project, it is a page that uses the lastFm api it shows the top chart of the week.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-music" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of second caption-->
+		     </div><!--Close of second thumbnail-->
+		   </div><!--Close of second col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end weather forecast</h3>
+		 	 <p>Take a look at my project, it is a page that uses the api of Weather Underground.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-knockoutjs" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of third caption-->
+		     </div><!--Close of third thumbnail-->
+		   </div><!--Close of third col-md-4-->	
+		 </div><!--Close of row-->
+		</div><!--Close of second container-->
 
-		<div class="search">
-			<div class="hello">
-				<a href="#" target="_blank">Cognits<span> search engine</span></a>			
-			<form>
- 	       	<input type="search" name="busqueda" value="">
-        	
-        	<button><img height="10" width="10" src="images/120px-Xmag.png" alt="Cognits"></button><br/>
+		<div class="container">
+		 <div class="row">
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end blog</h3>
+		 	 <p>Take a look at my project, it is a blog where you can find posts with markdown.</p>
+			 <p><a href="https://github.com/SergioMerida/bootstrap-javascript" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of first caption-->
+		     </div><!--Close of first thumbnail-->
+		   </div><!--Close of first col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end portfolio</h3>
+		 	 <p>Take a look at my project, it's this page take a look at the code.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-music" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of second caption-->
+		     </div><!--Close of second thumbnail-->
+		   </div><!--Close of second col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end weather forecast</h3>
+		 	 <p>Take a look at my project, it is a page that uses the api of Weather Underground.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-knockoutjs" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of third caption-->
+		     </div><!--Close of third thumbnail-->
+		   </div><!--Close of third col-md-4-->	
+		 </div><!--Close of row-->
+		</div><!--Close of third container-->
+
+		<div class="container bottomnav">
+		 <div class="row">
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end blog</h3>
+		 	 <p>Take a look at my project, it is a blog where you can find posts with markdown.</p>
+			 <p><a href="https://github.com/SergioMerida/bootstrap-javascript" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of first caption-->
+		     </div><!--Close of first thumbnail-->
+		   </div><!--Close of first col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end portfolio</h3>
+		 	 <p>Take a look at my project, it's this page take a look at the code.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-music" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of second caption-->
+		     </div><!--Close of second thumbnail-->
+		   </div><!--Close of second col-md-4-->
+		   <div class="col-md-4">
+		     <div class="thumbnail">
+		       <div class="caption" align="center">
+			 <h3>Front-end weather forecast</h3>
+		 	 <p>Take a look at my project, it is a page that uses the api of Weather Underground.</p>
+			 <p><a href="https://github.com/SergioMerida/frontend-knockoutjs" target="blank" class="btn btn-primary" role="button">Watch!</a></p>
+		       </div><!--Close of third caption-->
+		     </div><!--Close of third thumbnail-->
+		   </div><!--Close of third col-md-4-->	
+		 </div><!--Close of row-->
+		</div><!--Close of fourth container-->
+			
+
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+		 <div class="container">
+		  <div class="row">
+		   <div class="col-md-6 col-xs-6">
+		    <p class="navbar-text pull-left">Site Built By: Sergio Merida</p>  
+		   </div><!--Close of first col-->
+		   <div class="col-md-6 col-xs-6">
+		    <button type="button" class="navbar-btn btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">Contact Me</button>
+		   </div><!--Close of second col-->
+		  </div>
+		 </div>
+		</div>		
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myModalLabel">Contact me</h4>
+		      </div><!--Modal header-->
+		      <div class="modal-body">
+		       <div class="col-md-12 col-xs-12">
+			<form class="form-horizontal">
+			 <div class="form-group">
+			  <input type="text" class="form-control" id="nameField" placeholder="Name" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top">
+			 </div><!--First close form-group-->
+			 <div class="form-group">
+			  <input type="email" class="form-control" id="emailField" placeholder="Email" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top">
+			 </div><!--Second close form-group-->
+			 <div class="form-group">
+			  <input type="text" class="form-control" id="companyField" placeholder="Company" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top">
+		  	 </div><!--Third close form-group-->
+			 <div class="form-group">
+			  <textarea class="form-control" rows="3" id="messageField" placeholder="Leave a message" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top"></textarea>
+			 </div><!--Fourth close form-group-->
+			 <div class="form-group">
+			  <button onclick="sendTheMail(); return false;" class="btn btn-success">Send message</button>
+			 </div><!--Close of form-group-->
 			</form>
-			</div>
-			<p>Use our search engine</p>
-		</div>
-		<div class="search">
-			<div class="inventory">
-				<a href="https://github.com/SergioMerida?tab=repositories" target="_blank">Inventory</a>			
-			</div>
-			<p>Go to inventory</p>
-		</div>
-		<div class="portfolio">
-			<div class="port">
-				<a href="profile.html" target="_blank">Profile</a>	
-			</div>
-			<p>Look at my profile</p>
-		</div>
-		<div class="portfolio">
-			<div class="battleship">
-				<a href="https://github.com/SergioMerida/Battleship" target="_blank">Battleship</a>
-		</div>
-			<p>Go to Battleship the game</p>
-		</div>
-		<div class="more">
-			<div class="engine">
-				<a href="https://github.com/SergioMerida/MotorDeBusqueda" target="_blank">Search Engine</a>	
-			</div>
-			<p>Go to search engine</p>
-		</div>
-		<div class="more">
-			<div class="send">
-				<a href="https://github.com/SergioMerida/SendEmail" target="_blank">Send Email</a>	
-			</div>
-			<p>Go to send email</p>
-		</div>
-		<div class="last">
-			<div class="guess">
-				<a href="https://github.com/SergioMerida/GuessGame" target="_blank">Guess Game</a>	
-			</div>
-			<p>Go to guess game</p>
-		</div>
-		<div class="last">
-			<div class="cash">
-				<a href="https://github.com/SergioMerida/CajaRegistradora" target="_blank">Cash Register</a>
-			</div>
-			<p>Go to cash register</p>
-		</div>
+		       </div>
+		      </div><!--Close of modal body-->
+		      <div class="modal-footer">
+			<a href="https://github.com/SergioMerida" target="blank" class="navbar-btn btn-primary btn pull-right">Look my Github</a>  
+		      </div><!--Close of modal footer-->
+		    </div><!--Close of modal content-->
+		  </div><!--Close of modal dialog-->
+		</div><!--Close of modal-->
 
-		</div>
-	</div>
-	<div class="linea2">
-		<a href="#arriba">
-			<img height="100" width="100" src ="images/31838.png" alt="Cognits">
-		</a>
-	</div>
+		<!--Javascript-->
+		<script src="js/script.js"></script>
+		<!--Mandrill-->
+		<script type="text/javascript" src="js/mandrill-min.js"></script>
+		<!-- Bootstrap -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
